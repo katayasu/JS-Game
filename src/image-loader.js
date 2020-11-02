@@ -4,7 +4,6 @@ export class ImageLoader {
         this.images = {};
     }
 
-
     load() {
         const promises = [];
         for (let name in this.imageFiles) {
@@ -13,13 +12,12 @@ export class ImageLoader {
         return Promise.all(promises);
     }
 
-
     loadImage(name, src) {
         return new Promise((resolve) => {
-           const Image = new Image ();
-           this.images [name] = image;
-           image.onload = () => resolve(name);
-           image.src = src;
+            const image = new Image();
+            this.images[name] = image;
+            image.onload = () => resolve(name);
+            image.src = src;
         });
     }
 }
