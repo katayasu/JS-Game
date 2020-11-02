@@ -1,0 +1,30 @@
+{
+  "name": "elven-scout",
+  "version": "1.0.0",
+  "description": "Simple JS game",
+  "main": "index.js",
+  "scripts": {
+    "dist": "webpack-dev-server"
+  },
+  "author": "katayasu",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katayasu/JS-Game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/katayasu/JS-Game/issues"
+  },
+  "homepage": "https://github.com/katayasu/JS-Game#readme"
+}
+
+
